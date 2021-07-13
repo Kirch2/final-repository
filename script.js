@@ -1,3 +1,9 @@
-const h2 = document.createElement('h2');
-h2.textContent = "Software Developer";
-document.querySelector('body').appendChild(h2);
+const h2 = document.getElementById("click");
+const expand = document.getElementById("expand");
+h2.addEventListener("click", function () {
+    if (expand.style.display === "none") {
+        expand.style.display = "block"
+    } else {
+        expand.style.display = "none"
+    }
+})

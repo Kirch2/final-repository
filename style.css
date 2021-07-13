@@ -7,11 +7,16 @@ body {
 }
 
 
-a {
+h2, a {
     text-decoration: none;
     color: #222;
+    cursor: pointer;
 }    
 
-a:hover{
+h2:hover, a:hover{
     color: rgb(85, 108, 235);
+}
+
+p {
+    text-align: left;
 }
